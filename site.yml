@@ -1,11 +1,11 @@
-title : Blog Title
-tagline: Blog Tagline
+title : Hat Tricks
+tagline: Developer Tools and Tips
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Thomas Maloney
+  email : 
+  github : tlmaloney
+  twitter : thomaslmaloney
+  feedburner : 
 
 navigation :
   - archive.html
