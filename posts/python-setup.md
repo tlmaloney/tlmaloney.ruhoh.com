@@ -33,7 +33,7 @@ According to [Dru Pollini](http://dpollini.ruhoh.com/installation/guided-install
 
 Read about virtualenv [here](http://pypi.python.org/pypi/virtualenv) and about virtualenvwrapper [here](http://www.doughellmann.com/projects/virtualenvwrapper/).
 
-	sudo pip install --upgrade pip virtualenv virtualenvwrapper
+	pip install --upgrade pip virtualenv virtualenvwrapper
 
 For how to setup and work in a virtual environment, refer to the mint example [here](http://dpollini.ruhoh.com/installation/guided-installation-of-a-xubuntu-virtual-machine-for-developers/).
 
