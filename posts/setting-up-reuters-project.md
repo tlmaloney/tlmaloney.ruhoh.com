@@ -73,9 +73,13 @@ Create a directory /opt/rfaj/:
 	sudo mkdir rfaj
 	cd rfaj/
 
+Within /opt/rfaj, copy the rfaj.2.0.E3.all folder into it
+
+    sudo mv ~/Downloads/setup/rfaj7.2.0.E3.all .
+
 Create a symlink:
 
-	sudo ln -s ~/Downloads/setup/rfaj7.2.0.E3.all current
+	sudo ln -s rfaj7.2.0.E3.all current
 
 ### Install ksh
 
@@ -84,7 +88,10 @@ Execute:
 	sudo apt-get install ksh
 
 ### Fork and clone
-Fork the repository located at https://bitbucket.org/cuddihyd/reut into your own bitbucket account, and then clone the fork onto your machine in ~/hgdev/org.bitbucket/asmith.
+Fork the repository located at https://bitbucket.org/cuddihyd/reut into your own BitBucket.org account, and then clone the fork onto your machine
+
+    cd ~/hgdev/org.bitbucket/asmith
+    hg clone https://asmith@bitbucket.org/asmith/reut
 
 ### Test the project
 
@@ -103,8 +110,7 @@ Execute
 	cd /opt/rfaj/current/Tools
 	./config_editor.ksh
 
-An RFA Configuration Editor window will pop up. Go to File > Import > File. Then navigate to ~/vedev/vereut/reut/etc/rfaj-config and select reut-chicago.xml.
-
+An RFA Configuration Editor window will pop up. Go to File > Import > File. Then navigate to ~/hgdev/org.bitbucket/asmith/reut/etc/rfaj-config and select reut-chicago.xml.
 
 Next, build and launch the Jython shell:
 
