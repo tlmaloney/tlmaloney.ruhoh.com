@@ -58,6 +58,10 @@ I suggest either moving the binary, or making a symlink:
 
 	ln -s ~/Downloads/dbxml-2.5.16/install/bin/dbxml ~/bin/dbxml
 
+and make sure that ~/bin is in your PATH:
+
+    export PATH=$PATH:$HOME/bin
+
 ### Rlwrap
 
 I recommend using rlwrap to add input history and command completion.
