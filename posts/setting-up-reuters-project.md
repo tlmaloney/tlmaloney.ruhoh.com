@@ -15,8 +15,6 @@ layout: post
 
 ---
 
-Guide to setting up Reuters Dev Project
----------------------------------------
 ### Audience
 
 Autonomy Capital staff
@@ -110,7 +108,7 @@ Execute
 	cd /opt/rfaj/current/Tools
 	./config_editor.ksh
 
-An RFA Configuration Editor window will pop up. Go to File > Import > File. Then navigate to ~/hgdev/org.bitbucket/asmith/reut/etc/rfaj-config and select reut-chicago.xml.
+An RFA Configuration Editor window will pop up. Go to File > Import > File. Then navigate to ~/hgdev/org.bitbucket/asmith/reut/etc/rfaj-config and select reut-chicago.xml and select "Open". Pull down File > Exit.
 
 Next, build and launch the Jython shell:
 
